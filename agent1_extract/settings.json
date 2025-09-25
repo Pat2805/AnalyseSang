@@ -1,0 +1,19 @@
+{
+    "decimal_separator": ".",
+    "tolerance_mmol": 0.03,
+  
+    "llm": {
+      "provider": "openai",             // "openai" ou "anthropic"
+      "openai": {
+        "api_key": "",                  // facultatif : si vide -> utilise OPENAI_API_KEY (env)
+        "model": "gpt-4.1-mini"
+      },
+      "anthropic": {
+        "api_key": "",                  // facultatif : si vide -> utilise ANTHROPIC_API_KEY (env)
+        "model": "claude-3-5-sonnet-latest",
+        "max_tokens": 4000
+      },
+      "temperature": 0
+    }
+  }
+  

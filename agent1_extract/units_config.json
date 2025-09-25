@@ -1,0 +1,18 @@
+{
+    "units_target": {
+      "chol_total": "mmol/L",
+      "hdl": "mmol/L",
+      "ldl": "mmol/L",
+      "tg": "mmol/L",
+      "glycemie": "g/L",
+      "creatinine": "µmol/L",
+      "crp": "mg/L"
+    },
+    "factors": {
+      "chol_total": { "from": "g/L", "to": "mmol/L", "factor": 2.586 },
+      "hdl":        { "from": "g/L", "to": "mmol/L", "factor": 2.586 },
+      "ldl":        { "from": "g/L", "to": "mmol/L", "factor": 2.586 },
+      "tg":         { "from": "g/L", "to": "mmol/L", "factor": 1.128 }
+    }
+  }
+  

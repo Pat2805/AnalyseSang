@@ -1,0 +1,41 @@
+system: |
+  Tu es un extracteur de données de bilans sanguins.
+  Tu renvoies STRICTEMENT un tableau JSON UTF-8 d’objets conformes au schéma décrit.
+  Aucun commentaire ni texte hors JSON.
+  Si une information est absente, omets le champ optionnel (provenance, reference_min, reference_max).
+  Ne convertis PAS les unités : recopie l’unité vue (unite_source) et propose unite_cible via UNIT_TARGETS si applicable, sinon null.
+
+user_template: |
+  CONTEXTE:
+  - Tu reçois un BLOC issu d’un PDF de bilan sanguin.
+  - Extrait toutes les paires {marqueur, valeur, unité} et aussi les "Antécédents / Valeurs précédentes" (chaque date = une ligne).
+  - Les valeurs peuvent être numériques ou qualitatives ("positif"/"negatif"/"réactif"...).
+  - Les plages de référence du PDF (si lisibles et numériques) doivent être restituées en reference_min/reference_max (optionnels).
+  - DECIMAL_SEPARATOR attendu pour la valeur = {DECIMAL_SEPARATOR}. Si tu lis "0,93", renvoie "0.93" si le séparateur attendu est ".".
+
+  MAPPING (indicatif): chol_total, hdl, ldl, tg, glycemie, creatinine, crp, asat, alat, ggt, pal, hba1c, sodium, potassium, chlore, tsh, t4l, vitd, ctx, fort, ford, mercure, ige, vih_combo, hbs_ag, hbs_ac, hcv_ac ...
+
+  UNIT_TARGETS (pour renseigner unite_cible si applicable) :
+  {UNIT_TARGETS_JSON}
+
+  SCHÉMA DE SORTIE:
+  {{
+    "date_prelevement": "YYYY-MM-DD",
+    "marqueur_key": "ldl",
+    "marqueur_label": "LDL Cholestérol",
+    "valeur": 4.66 | "negatif",
+    "unite_source": "mmol/L" | "g/L" | "mg/L" | "µmol/L" | null,
+    "unite_cible": "mmol/L" | "g/L" | "mg/L" | "µmol/L" | null,
+    "labo": "string",
+    "pdf_filename": "string",
+    "page": 1,
+    "provenance": "table:Lipides" | "texte:Antécédents" | null,
+    "from_antecedent": true | false,
+    "reference_min": 0.0 (optionnel),
+    "reference_max": 4.1 (optionnel)
+  }}
+  
+  BLOC (pdf={PDF_NAME}, page={PAGE_N}, section={SECTION_ID}):
+  {BLOCK_TEXT}
+
+  RENVOIE UNIQUEMENT LE TABLEAU JSON D’OBJETS.
