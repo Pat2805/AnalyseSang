@@ -14,8 +14,3 @@ Automatiser le traitement de bilans sanguins PDF pour générer un Excel structu
 
 ---
 
-## ⚙️ Installation
-### 1. Cloner le repo
-```bash
-git clone git@github.com:tonuser/lab-blood-excel-pipeline.git
-cd lab-blood-excel-pipeline
