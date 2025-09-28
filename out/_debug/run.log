@@ -1,0 +1,160 @@
+[INFO] PDFs à traiter: 0
+[INFO] Aucun nouveau PDF à traiter. (Pense à supprimer out/ingest_index.json pour forcer)
+[INFO] PDFs à traiter: 3
+[PDF] 2008-08 Bilan sanguin.pdf
+[INFO] 2008-08 Bilan sanguin.pdf: 4 blocs
+[WARN] LLM bloc échoué 2008-08 Bilan sanguin.pdf p1 texte : 'marqueur, valeur, unité'
+[WARN] LLM bloc échoué 2008-08 Bilan sanguin.pdf p2 texte : 'marqueur, valeur, unité'
+[WARN] LLM bloc échoué 2008-08 Bilan sanguin.pdf p3 texte : 'marqueur, valeur, unité'
+[WARN] LLM bloc échoué 2008-08 Bilan sanguin.pdf p4 texte : 'marqueur, valeur, unité'
+[INFO] bruts: 0
+[INFO] validés: 0 rejetés: 0
+[PDF] 2011-07 Bilan Sanguin.pdf
+[INFO] 2011-07 Bilan Sanguin.pdf: 5 blocs
+[WARN] LLM bloc échoué 2011-07 Bilan Sanguin.pdf p1 texte : 'marqueur, valeur, unité'
+[WARN] LLM bloc échoué 2011-07 Bilan Sanguin.pdf p2 texte : 'marqueur, valeur, unité'
+[WARN] LLM bloc échoué 2011-07 Bilan Sanguin.pdf p3 texte : 'marqueur, valeur, unité'
+[WARN] LLM bloc échoué 2011-07 Bilan Sanguin.pdf p4 texte : 'marqueur, valeur, unité'
+[WARN] LLM bloc échoué 2011-07 Bilan Sanguin.pdf p5 texte : 'marqueur, valeur, unité'
+[INFO] bruts: 0
+[INFO] validés: 0 rejetés: 0
+[PDF] 2011-08 Bilan Sanguin 08-2011.pdf
+[INFO] 2011-08 Bilan Sanguin 08-2011.pdf: 5 blocs
+[WARN] LLM bloc échoué 2011-08 Bilan Sanguin 08-2011.pdf p1 texte : 'marqueur, valeur, unité'
+[WARN] LLM bloc échoué 2011-08 Bilan Sanguin 08-2011.pdf p2 texte : 'marqueur, valeur, unité'
+[WARN] LLM bloc échoué 2011-08 Bilan Sanguin 08-2011.pdf p3 texte : 'marqueur, valeur, unité'
+[WARN] LLM bloc échoué 2011-08 Bilan Sanguin 08-2011.pdf p4 texte : 'marqueur, valeur, unité'
+[WARN] LLM bloc échoué 2011-08 Bilan Sanguin 08-2011.pdf p5 texte : 'marqueur, valeur, unité'
+[INFO] bruts: 0
+[INFO] validés: 0 rejetés: 0
+[OK] Écrit: out\facts.jsonl (JSONL canonique)
+[INFO] PDFs à traiter: 3
+[PDF] 2008-08 Bilan sanguin.pdf
+[INFO] 2008-08 Bilan sanguin.pdf: 4 blocs
+[WARN] LLM bloc échoué 2008-08 Bilan sanguin.pdf p1 texte : Client.__init__() got an unexpected keyword argument 'proxies'
+[WARN] LLM bloc échoué 2008-08 Bilan sanguin.pdf p2 texte : Client.__init__() got an unexpected keyword argument 'proxies'
+[WARN] LLM bloc échoué 2008-08 Bilan sanguin.pdf p3 texte : Client.__init__() got an unexpected keyword argument 'proxies'
+[WARN] LLM bloc échoué 2008-08 Bilan sanguin.pdf p4 texte : Client.__init__() got an unexpected keyword argument 'proxies'
+[INFO] bruts: 0
+[INFO] validés: 0 rejetés: 0
+[PDF] 2011-07 Bilan Sanguin.pdf
+[INFO] 2011-07 Bilan Sanguin.pdf: 5 blocs
+[WARN] LLM bloc échoué 2011-07 Bilan Sanguin.pdf p1 texte : Client.__init__() got an unexpected keyword argument 'proxies'
+[WARN] LLM bloc échoué 2011-07 Bilan Sanguin.pdf p2 texte : Client.__init__() got an unexpected keyword argument 'proxies'
+[WARN] LLM bloc échoué 2011-07 Bilan Sanguin.pdf p3 texte : Client.__init__() got an unexpected keyword argument 'proxies'
+[WARN] LLM bloc échoué 2011-07 Bilan Sanguin.pdf p4 texte : Client.__init__() got an unexpected keyword argument 'proxies'
+[WARN] LLM bloc échoué 2011-07 Bilan Sanguin.pdf p5 texte : Client.__init__() got an unexpected keyword argument 'proxies'
+[INFO] bruts: 0
+[INFO] validés: 0 rejetés: 0
+[PDF] 2011-08 Bilan Sanguin 08-2011.pdf
+[INFO] 2011-08 Bilan Sanguin 08-2011.pdf: 5 blocs
+[WARN] LLM bloc échoué 2011-08 Bilan Sanguin 08-2011.pdf p1 texte : Client.__init__() got an unexpected keyword argument 'proxies'
+[WARN] LLM bloc échoué 2011-08 Bilan Sanguin 08-2011.pdf p2 texte : Client.__init__() got an unexpected keyword argument 'proxies'
+[WARN] LLM bloc échoué 2011-08 Bilan Sanguin 08-2011.pdf p3 texte : Client.__init__() got an unexpected keyword argument 'proxies'
+[WARN] LLM bloc échoué 2011-08 Bilan Sanguin 08-2011.pdf p4 texte : Client.__init__() got an unexpected keyword argument 'proxies'
+[WARN] LLM bloc échoué 2011-08 Bilan Sanguin 08-2011.pdf p5 texte : Client.__init__() got an unexpected keyword argument 'proxies'
+[INFO] bruts: 0
+[INFO] validés: 0 rejetés: 0
+[OK] Écrit: out\facts.jsonl (JSONL canonique)
+[INFO] PDFs à traiter: 0
+[INFO] Aucun nouveau PDF à traiter. (Pense à supprimer out/ingest_index.json pour forcer)
+[INFO] PDFs à traiter: 3
+[PDF] 2008-08 Bilan sanguin.pdf
+[INFO] 2008-08 Bilan sanguin.pdf: 4 blocs
+[WARN] LLM bloc échoué 2008-08 Bilan sanguin.pdf p1 texte : Client.__init__() got an unexpected keyword argument 'proxies'
+[WARN] LLM bloc échoué 2008-08 Bilan sanguin.pdf p2 texte : Client.__init__() got an unexpected keyword argument 'proxies'
+[WARN] LLM bloc échoué 2008-08 Bilan sanguin.pdf p3 texte : Client.__init__() got an unexpected keyword argument 'proxies'
+[WARN] LLM bloc échoué 2008-08 Bilan sanguin.pdf p4 texte : Client.__init__() got an unexpected keyword argument 'proxies'
+[INFO] bruts: 0
+[INFO] validés: 0 rejetés: 0
+[PDF] 2011-07 Bilan Sanguin.pdf
+[INFO] 2011-07 Bilan Sanguin.pdf: 5 blocs
+[WARN] LLM bloc échoué 2011-07 Bilan Sanguin.pdf p1 texte : Client.__init__() got an unexpected keyword argument 'proxies'
+[WARN] LLM bloc échoué 2011-07 Bilan Sanguin.pdf p2 texte : Client.__init__() got an unexpected keyword argument 'proxies'
+[WARN] LLM bloc échoué 2011-07 Bilan Sanguin.pdf p3 texte : Client.__init__() got an unexpected keyword argument 'proxies'
+[WARN] LLM bloc échoué 2011-07 Bilan Sanguin.pdf p4 texte : Client.__init__() got an unexpected keyword argument 'proxies'
+[WARN] LLM bloc échoué 2011-07 Bilan Sanguin.pdf p5 texte : Client.__init__() got an unexpected keyword argument 'proxies'
+[INFO] bruts: 0
+[INFO] validés: 0 rejetés: 0
+[PDF] 2011-08 Bilan Sanguin 08-2011.pdf
+[INFO] 2011-08 Bilan Sanguin 08-2011.pdf: 5 blocs
+[WARN] LLM bloc échoué 2011-08 Bilan Sanguin 08-2011.pdf p1 texte : Client.__init__() got an unexpected keyword argument 'proxies'
+[WARN] LLM bloc échoué 2011-08 Bilan Sanguin 08-2011.pdf p2 texte : Client.__init__() got an unexpected keyword argument 'proxies'
+[WARN] LLM bloc échoué 2011-08 Bilan Sanguin 08-2011.pdf p3 texte : Client.__init__() got an unexpected keyword argument 'proxies'
+[WARN] LLM bloc échoué 2011-08 Bilan Sanguin 08-2011.pdf p4 texte : Client.__init__() got an unexpected keyword argument 'proxies'
+[WARN] LLM bloc échoué 2011-08 Bilan Sanguin 08-2011.pdf p5 texte : Client.__init__() got an unexpected keyword argument 'proxies'
+[INFO] bruts: 0
+[INFO] validés: 0 rejetés: 0
+[OK] Écrit: out\facts.jsonl (JSONL canonique)
+[INFO] PDFs à traiter: 3
+[PDF] 2008-08 Bilan sanguin.pdf
+[INFO] 2008-08 Bilan sanguin.pdf: 4 blocs
+[WARN] LLM bloc échoué 2008-08 Bilan sanguin.pdf p1 texte : Client.__init__() got an unexpected keyword argument 'proxies'
+[WARN] LLM bloc échoué 2008-08 Bilan sanguin.pdf p2 texte : Client.__init__() got an unexpected keyword argument 'proxies'
+[WARN] LLM bloc échoué 2008-08 Bilan sanguin.pdf p3 texte : Client.__init__() got an unexpected keyword argument 'proxies'
+[WARN] LLM bloc échoué 2008-08 Bilan sanguin.pdf p4 texte : Client.__init__() got an unexpected keyword argument 'proxies'
+[INFO] bruts: 0
+[INFO] validés: 0 rejetés: 0
+[PDF] 2011-07 Bilan Sanguin.pdf
+[INFO] 2011-07 Bilan Sanguin.pdf: 5 blocs
+[WARN] LLM bloc échoué 2011-07 Bilan Sanguin.pdf p1 texte : Client.__init__() got an unexpected keyword argument 'proxies'
+[WARN] LLM bloc échoué 2011-07 Bilan Sanguin.pdf p2 texte : Client.__init__() got an unexpected keyword argument 'proxies'
+[WARN] LLM bloc échoué 2011-07 Bilan Sanguin.pdf p3 texte : Client.__init__() got an unexpected keyword argument 'proxies'
+[WARN] LLM bloc échoué 2011-07 Bilan Sanguin.pdf p4 texte : Client.__init__() got an unexpected keyword argument 'proxies'
+[WARN] LLM bloc échoué 2011-07 Bilan Sanguin.pdf p5 texte : Client.__init__() got an unexpected keyword argument 'proxies'
+[INFO] bruts: 0
+[INFO] validés: 0 rejetés: 0
+[PDF] 2011-08 Bilan Sanguin 08-2011.pdf
+[INFO] 2011-08 Bilan Sanguin 08-2011.pdf: 5 blocs
+[WARN] LLM bloc échoué 2011-08 Bilan Sanguin 08-2011.pdf p1 texte : Client.__init__() got an unexpected keyword argument 'proxies'
+[WARN] LLM bloc échoué 2011-08 Bilan Sanguin 08-2011.pdf p2 texte : Client.__init__() got an unexpected keyword argument 'proxies'
+[WARN] LLM bloc échoué 2011-08 Bilan Sanguin 08-2011.pdf p3 texte : Client.__init__() got an unexpected keyword argument 'proxies'
+[WARN] LLM bloc échoué 2011-08 Bilan Sanguin 08-2011.pdf p4 texte : Client.__init__() got an unexpected keyword argument 'proxies'
+[WARN] LLM bloc échoué 2011-08 Bilan Sanguin 08-2011.pdf p5 texte : Client.__init__() got an unexpected keyword argument 'proxies'
+[INFO] bruts: 0
+[INFO] validés: 0 rejetés: 0
+[OK] Écrit: out\facts.jsonl (JSONL canonique)
+[INFO] PDFs à traiter: 0
+[INFO] Aucun nouveau PDF à traiter. (Pense à supprimer out/ingest_index.json pour forcer)
+[INFO] PDFs à traiter: 3
+[PDF] 2008-08 Bilan sanguin.pdf
+[INFO] 2008-08 Bilan sanguin.pdf: 4 blocs
+[WARN] LLM bloc échoué 2008-08 Bilan sanguin.pdf p1 texte : Client.__init__() got an unexpected keyword argument 'proxies'
+[WARN] LLM bloc échoué 2008-08 Bilan sanguin.pdf p2 texte : Client.__init__() got an unexpected keyword argument 'proxies'
+[WARN] LLM bloc échoué 2008-08 Bilan sanguin.pdf p3 texte : Client.__init__() got an unexpected keyword argument 'proxies'
+[WARN] LLM bloc échoué 2008-08 Bilan sanguin.pdf p4 texte : Client.__init__() got an unexpected keyword argument 'proxies'
+[INFO] bruts: 0
+[INFO] validés: 0 rejetés: 0
+[PDF] 2011-07 Bilan Sanguin.pdf
+[INFO] 2011-07 Bilan Sanguin.pdf: 5 blocs
+[WARN] LLM bloc échoué 2011-07 Bilan Sanguin.pdf p1 texte : Client.__init__() got an unexpected keyword argument 'proxies'
+[WARN] LLM bloc échoué 2011-07 Bilan Sanguin.pdf p2 texte : Client.__init__() got an unexpected keyword argument 'proxies'
+[WARN] LLM bloc échoué 2011-07 Bilan Sanguin.pdf p3 texte : Client.__init__() got an unexpected keyword argument 'proxies'
+[WARN] LLM bloc échoué 2011-07 Bilan Sanguin.pdf p4 texte : Client.__init__() got an unexpected keyword argument 'proxies'
+[WARN] LLM bloc échoué 2011-07 Bilan Sanguin.pdf p5 texte : Client.__init__() got an unexpected keyword argument 'proxies'
+[INFO] bruts: 0
+[INFO] validés: 0 rejetés: 0
+[PDF] 2011-08 Bilan Sanguin 08-2011.pdf
+[INFO] 2011-08 Bilan Sanguin 08-2011.pdf: 5 blocs
+[WARN] LLM bloc échoué 2011-08 Bilan Sanguin 08-2011.pdf p1 texte : Client.__init__() got an unexpected keyword argument 'proxies'
+[WARN] LLM bloc échoué 2011-08 Bilan Sanguin 08-2011.pdf p2 texte : Client.__init__() got an unexpected keyword argument 'proxies'
+[WARN] LLM bloc échoué 2011-08 Bilan Sanguin 08-2011.pdf p3 texte : Client.__init__() got an unexpected keyword argument 'proxies'
+[WARN] LLM bloc échoué 2011-08 Bilan Sanguin 08-2011.pdf p4 texte : Client.__init__() got an unexpected keyword argument 'proxies'
+[WARN] LLM bloc échoué 2011-08 Bilan Sanguin 08-2011.pdf p5 texte : Client.__init__() got an unexpected keyword argument 'proxies'
+[INFO] bruts: 0
+[INFO] validés: 0 rejetés: 0
+[OK] Écrit: out\facts.jsonl (JSONL canonique)
+[INFO] PDFs à traiter: 3
+[PDF] 2008-08 Bilan sanguin.pdf
+[INFO] 2008-08 Bilan sanguin.pdf: 4 blocs
+[INFO] bruts: 40
+[INFO] validés: 40 rejetés: 0
+[PDF] 2011-07 Bilan Sanguin.pdf
+[INFO] 2011-07 Bilan Sanguin.pdf: 5 blocs
+[INFO] bruts: 69
+[INFO] validés: 69 rejetés: 0
+[PDF] 2011-08 Bilan Sanguin 08-2011.pdf
+[INFO] 2011-08 Bilan Sanguin 08-2011.pdf: 5 blocs
+[INFO] bruts: 43
+[INFO] validés: 43 rejetés: 0
+[OK] Écrit: out\facts.jsonl et out\facts.csv

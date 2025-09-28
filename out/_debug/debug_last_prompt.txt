@@ -1,0 +1,60 @@
+CONTEXTE:
+- Tu reçois un BLOC issu d’un PDF de bilan sanguin.
+- Extrait toutes les paires {marqueur, valeur, unité} et aussi les "Antécédents / Valeurs précédentes" (chaque date = une ligne).
+- Les valeurs peuvent être numériques ou qualitatives ("positif"/"negatif"/"réactif"...).
+- Les plages de référence du PDF (si lisibles et numériques) doivent être restituées en reference_min/reference_max (optionnels).
+- DECIMAL_SEPARATOR attendu pour la valeur = .. Si tu lis "0,93", renvoie "0.93" si le séparateur attendu est ".".
+
+MAPPING (indicatif): chol_total, hdl, ldl, tg, glycemie, creatinine, crp, asat, alat, ggt, pal, hba1c, sodium, potassium, chlore, tsh, t4l, vitd, ctx, fort, ford, mercure, ige, vih_combo, hbs_ag, hbs_ac, hcv_ac ...
+
+UNIT_TARGETS (pour renseigner unite_cible si applicable) :
+{
+  "chol_total": "mmol/L",
+  "hdl": "mmol/L",
+  "ldl": "mmol/L",
+  "tg": "mmol/L",
+  "glycemie": "g/L",
+  "creatinine": "µmol/L",
+  "crp": "mg/L"
+}
+
+SCHÉMA DE SORTIE:
+{
+  "date_prelevement": "YYYY-MM-DD",
+  "marqueur_key": "ldl",
+  "marqueur_label": "LDL Cholestérol",
+  "valeur": 4.66 | "negatif",
+  "unite_source": "mmol/L" | "g/L" | "mg/L" | "µmol/L" | null,
+  "unite_cible": "mmol/L" | "g/L" | "mg/L" | "µmol/L" | null,
+  "labo": "string",
+  "pdf_filename": "string",
+  "page": 1,
+  "provenance": "table:Lipides" | "texte:Antécédents" | null,
+  "from_antecedent": true | false,
+  "reference_min": 0.0 (optionnel),
+  "reference_max": 4.1 (optionnel)
+}
+
+BLOC (pdf=2011-08 Bilan Sanguin 08-2011.pdf, page=5, section=texte):
+Directeur : Philippe BEYRAC
+Biologiste Médical, Ancien Assistant des Hôpitaux de Paris
+CES: Hématologie. Immunologie. Bactériologie-Virologie, Biochimie clinique
+Laboratoires Beyrac
+REFERENCE 110824-26 du 24/08/11 LE 24/08/11 PAGE 5
+28/05/75
+DOCTEUR MARQUET ROLAND MONSIEUR PALMERO PATRICE
+20 BOULEVARD D'ITALIE 29 BOULEVARD D' ITALIE
+98000 MONACO 98000 MONACO
+;.:-:•:::•:-:::-:-:::::•;.:-:•:•.<•: :•:•:·:•.·.·.·.•.·;.•.·.·.·.·.·.·.·.·.·,.·.·.·.·.·.·.·.·.·.·.·.·.·.·.·.·.·.·.·.·.·.·.·.·.·.·-:•·······•:-•,•:-.-:-:-:-:::•:::•,·-······
+NORMALES ANTERIORITES
+PROFIL PROTEIQUE INFLAMMATOIRE
+Protéine C reactive Inf à 3.0 mg/L
+< 5
+Technique Immuno-turbidimétrique
+Palais Gallia Place de la Crémaillère 06240 Beausoleil. Monte-Carlo Sup.
+\
+Tel:+33 (0)4 93 78 56 23 - Fax:+33 (0)4 93 78 44 95
+c::::::: D
+E-mail: laboratoire-beyrac@wanadoo.fr-Site: www.labo-beyrac.com
+
+RENVOIE UNIQUEMENT LE TABLEAU JSON D’OBJETS.

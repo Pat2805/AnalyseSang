@@ -1,0 +1,38 @@
+Traceback (most recent call last):
+  File "D:\Dropbox\Data\Patrice\Work\Code\Projects\AnalyseSang\agent1_extract\extractor.py", line 227, in run_extract
+    rows_raw.extend(llm_extract_block(
+                    ~~~~~~~~~~~~~~~~~^
+        b, prompts, units_cfg.get("units_target", {}),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        settings.get("decimal_separator", "."), llm_conf
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ))
+    ^
+  File "D:\Dropbox\Data\Patrice\Work\Code\Projects\AnalyseSang\agent1_extract\extractor.py", line 191, in llm_extract_block
+    rows = call_llm(prompts["system"], user_prompt, llm_conf)
+  File "D:\Dropbox\Data\Patrice\Work\Code\Projects\AnalyseSang\agent1_extract\extractor.py", line 139, in call_llm
+    client = OpenAI(api_key=llm_conf["api_key"])
+  File "D:\Dropbox\Data\Patrice\Work\Code\Projects\AnalyseSang\.venv\Lib\site-packages\openai\_client.py", line 123, in __init__
+    super().__init__(
+    ~~~~~~~~~~~~~~~~^
+        version=__version__,
+        ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+        _strict_response_validation=_strict_response_validation,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "D:\Dropbox\Data\Patrice\Work\Code\Projects\AnalyseSang\.venv\Lib\site-packages\openai\_base_client.py", line 849, in __init__
+    self._client = http_client or SyncHttpxClientWrapper(
+                                  ~~~~~~~~~~~~~~~~~~~~~~^
+        base_url=base_url,
+        ^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+        follow_redirects=True,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "D:\Dropbox\Data\Patrice\Work\Code\Projects\AnalyseSang\.venv\Lib\site-packages\openai\_base_client.py", line 747, in __init__
+    super().__init__(**kwargs)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^
+TypeError: Client.__init__() got an unexpected keyword argument 'proxies'

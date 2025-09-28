@@ -8,7 +8,7 @@ system: |
 user_template: |
   CONTEXTE:
   - Tu reçois un BLOC issu d’un PDF de bilan sanguin.
-  - Extrait toutes les paires {marqueur, valeur, unité} et aussi les "Antécédents / Valeurs précédentes" (chaque date = une ligne).
+  - Extrait toutes les paires {{marqueur, valeur, unité}} et aussi les "Antécédents / Valeurs précédentes" (chaque date = une ligne).
   - Les valeurs peuvent être numériques ou qualitatives ("positif"/"negatif"/"réactif"...).
   - Les plages de référence du PDF (si lisibles et numériques) doivent être restituées en reference_min/reference_max (optionnels).
   - DECIMAL_SEPARATOR attendu pour la valeur = {DECIMAL_SEPARATOR}. Si tu lis "0,93", renvoie "0.93" si le séparateur attendu est ".".

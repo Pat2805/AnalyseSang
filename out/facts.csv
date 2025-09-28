@@ -1,0 +1,125 @@
+date_prelevement,marqueur_key,marqueur_label,valeur,unite_source,unite_cible,labo,pdf_filename,page,from_antecedent,provenance,reference_min,reference_max
+2008-08-29,hematies,Hématies,5060000.0,/mm3,,LABORATOIRE D. BENCHETRIT,2008-08 Bilan sanguin.pdf,1,False,texte:Antécédents,4600000.0,6000000.0
+2008-08-29,hemoglobine,Hémoglobine,15.2,g/l00rnl,,LABORATOIRE D. BENCHETRIT,2008-08 Bilan sanguin.pdf,1,False,texte:Antécédents,13.0,17.0
+2008-08-29,hematocrite,Hématocrite,44.4,%,,LABORATOIRE D. BENCHETRIT,2008-08 Bilan sanguin.pdf,1,False,texte:Antécédents,40.0,50.0
+2008-08-29,vgm,Volume globulaire moyen VGM,87.8,µ3,,LABORATOIRE D. BENCHETRIT,2008-08 Bilan sanguin.pdf,1,False,texte:Antécédents,82.0,98.0
+2008-08-29,tgmh,Charge globulaire TGMH,30.0,µg,,LABORATOIRE D. BENCHETRIT,2008-08 Bilan sanguin.pdf,1,False,texte:Antécédents,28.0,34.0
+2008-08-29,cgmh,Concentration globulaire CGMH,34.2,%,,LABORATOIRE D. BENCHETRIT,2008-08 Bilan sanguin.pdf,1,False,texte:Antécédents,32.0,35.0
+2008-08-29,leucocytes,Leucocytes,6680.0,/mm3,,LABORATOIRE D. BENCHETRIT,2008-08 Bilan sanguin.pdf,1,False,texte:Antécédents,4000.0,11000.0
+2008-08-29,polynucleaires_neutrophiles,Polynucléaires neutrophiles,3854.0,/mm3,,LABORATOIRE D. BENCHETRIT,2008-08 Bilan sanguin.pdf,1,False,texte:Antécédents,1500.0,7000.0
+2008-08-29,eosinophiles,Éosinophiles,301.0,/mm3,,LABORATOIRE D. BENCHETRIT,2008-08 Bilan sanguin.pdf,1,False,texte:Antécédents,50.0,400.0
+2008-08-29,basophiles,Basophiles,33.0,/mm3,,LABORATOIRE D. BENCHETRIT,2008-08 Bilan sanguin.pdf,1,False,texte:Antécédents,0.0,100.0
+2008-08-29,lymphocytes,Lymphocytes,1817.0,/mm3,,LABORATOIRE D. BENCHETRIT,2008-08 Bilan sanguin.pdf,1,False,texte:Antécédents,1500.0,4000.0
+2008-08-29,monocytes,Monocytes,534.0,/mm3,,LABORATOIRE D. BENCHETRIT,2008-08 Bilan sanguin.pdf,1,False,texte:Antécédents,200.0,800.0
+2008-08-29,luc,LUC,147.0,/mm3,,LABORATOIRE D. BENCHETRIT,2008-08 Bilan sanguin.pdf,1,False,texte:Antécédents,,
+2008-08-29,plaquettes,Plaquettes,254000.0,/mm3,,LABORATOIRE D. BENCHETRIT,2008-08 Bilan sanguin.pdf,1,False,texte:Antécédents,150000.0,400000.0
+2008-08-29,vitesse_sedimentation_1h,Vitesse de sédimentation 1ère heure,11.0,mm,,LABORATOIRE D. BENCHETRIT,2008-08 Bilan sanguin.pdf,1,False,texte:Antécédents,1.0,18.0
+2008-08-29,glycemie,Glycémie à jeun,0.9,g/1,g/1,LABORATOIRE D. BENCHETRIT,2008-08 Bilan sanguin.pdf,1,False,texte:Antécédents,0.7,1.1
+2008-08-29,asat,ASAT (SGOT),22.0,UI/1,,LABORATOIRE D. BENCHETRIT,2008-08 Bilan sanguin.pdf,2,False,texte:Antécédents,0.0,40.0
+2008-08-29,alat,ALAT (SGPT),30.0,UI/1,,LABORATOIRE D. BENCHETRIT,2008-08 Bilan sanguin.pdf,2,False,texte:Antécédents,0.0,40.0
+2008-08-29,ggt,Gamma GT,32.0,UI/1,,LABORATOIRE D. BENCHETRIT,2008-08 Bilan sanguin.pdf,2,False,texte:Antécédents,12.0,30.0
+2008-08-29,vih_combo,VIH Combo,positif,,,LABORATOIRE D. BENCHETRIT,2008-08 Bilan sanguin.pdf,2,False,texte:Antécédents,,
+2008-08-29,hbs_ag,Antigène HBs,negatif,,,LABORATOIRE D. BENCHETRIT,2008-08 Bilan sanguin.pdf,2,False,texte:Antécédents,,
+2008-08-29,hbs_ac,Anticorps anti-HBs,246.1,U/1,,LABORATOIRE D. BENCHETRIT,2008-08 Bilan sanguin.pdf,2,False,texte:Antécédents,,
+2008-08-29,hcv_ac,Ac anti Hépatite C,negatif,,,LABORATOIRE D. BENCHETRIT,2008-08 Bilan sanguin.pdf,2,False,texte:Antécédents,,
+2008-08-29,acide_urique,Acide Urique,58.5,mg/l,,LABORATOIRE D. BENCHETRIT,2008-08 Bilan sanguin.pdf,3,True,texte:Antécédents,28.0,70.0
+2008-08-29,creatinine,Créatinine,107.0,µmol/l,µmol/L,LABORATOIRE D. BENCHETRIT,2008-08 Bilan sanguin.pdf,3,True,texte:Antécédents,65.0,120.0
+2008-08-29,chol_total,Cholestérol Total,6.16,mmol/l,mmol/L,LABORATOIRE D. BENCHETRIT,2008-08 Bilan sanguin.pdf,3,True,texte:Antécédents,4.14,5.7
+2008-08-29,tg,Triglycérides,1.37,mmol/l,mmol/L,LABORATOIRE D. BENCHETRIT,2008-08 Bilan sanguin.pdf,3,True,texte:Antécédents,0.56,1.69
+2008-08-29,hdl,HDL Cholestérol,0.54,g/l,g/l,LABORATOIRE D. BENCHETRIT,2008-08 Bilan sanguin.pdf,3,True,texte:Antécédents,0.45,
+2008-08-29,ldl,LDL Cholestérol,1.6,g/l,g/l,LABORATOIRE D. BENCHETRIT,2008-08 Bilan sanguin.pdf,3,True,texte:Antécédents,,1.3
+2008-08-29,sodium,Sodium,141.0,mmol/l,,LABORATOIRE D. BENCHETRIT,2008-08 Bilan sanguin.pdf,3,True,texte:Antécédents,135.0,145.0
+2008-08-29,potassium,Potassium,4.0,mmol/l,,LABORATOIRE D. BENCHETRIT,2008-08 Bilan sanguin.pdf,3,True,texte:Antécédents,3.5,4.5
+2008-08-29,chlore,Chlore,105.0,mmol/l,,LABORATOIRE D. BENCHETRIT,2008-08 Bilan sanguin.pdf,3,True,texte:Antécédents,98.0,106.0
+2008-08-29,fer,Fer Sérique,115.6,µg/l,,LABORATOIRE D. BENCHETRIT,2008-08 Bilan sanguin.pdf,3,True,texte:Antécédents,66.0,166.0
+2011-07-15,hematies,Hématies,5260000.0,/mm3,,Laboratoires associés :BARLANice/LAMSINice/ BERLUGANBeaulieu / RAIMBALDINice/Centre Biologique Médical Nice,2011-07 Bilan Sanguin.pdf,1,False,texte:Antécédents,4600000.0,6000000.0
+2011-07-15,hemoglobine,Hémoglobine,15.3,g/100m1,,Laboratoires associés :BARLANice/LAMSINice/ BERLUGANBeaulieu / RAIMBALDINice/Centre Biologique Médical Nice,2011-07 Bilan Sanguin.pdf,1,False,texte:Antécédents,13.0,17.0
+2011-07-15,hematocrite,Hématocrite,45.7,%,,Laboratoires associés :BARLANice/LAMSINice/ BERLUGANBeaulieu / RAIMBALDINice/Centre Biologique Médical Nice,2011-07 Bilan Sanguin.pdf,1,False,texte:Antécédents,40.0,50.0
+2011-07-15,vgm,Volume globulaire moyen,86.9,u3,,Laboratoires associés :BARLANice/LAMSINice/ BERLUGANBeaulieu / RAIMBALDINice/Centre Biologique Médical Nice,2011-07 Bilan Sanguin.pdf,1,False,texte:Antécédents,82.0,98.0
+2011-07-15,tgmh,Charge globulaire TGMH,29.1,ug,,Laboratoires associés :BARLANice/LAMSINice/ BERLUGANBeaulieu / RAIMBALDINice/Centre Biologique Médical Nice,2011-07 Bilan Sanguin.pdf,1,False,texte:Antécédents,28.0,34.0
+2011-07-15,cgmh,Concentration globulaire CGMH,88.5,5,,Laboratoires associés :BARLANice/LAMSINice/ BERLUGANBeaulieu / RAIMBALDINice/Centre Biologique Médical Nice,2011-07 Bilan Sanguin.pdf,1,False,texte:Antécédents,32.0,35.0
+2011-07-15,cvgr,Index de distribution CVGR,1855.0,5,,Laboratoires associés :BARLANice/LAMSINice/ BERLUGANBeaulieu / RAIMBALDINice/Centre Biologique Médical Nice,2011-07 Bilan Sanguin.pdf,1,False,texte:Antécédents,11.5,14.5
+2011-07-15,leucocytes,Leucocytes,7200.0,/mm3,,Laboratoires associés :BARLANice/LAMSINice/ BERLUGANBeaulieu / RAIMBALDINice/Centre Biologique Médical Nice,2011-07 Bilan Sanguin.pdf,1,False,texte:Antécédents,4000.0,11000.0
+2011-07-15,polynucléaires_neutrophiles,Polynucléaires neutrophiles,3982.0,/mm3,,Laboratoires associés :BARLANice/LAMSINice/ BERLUGANBeaulieu / RAIMBALDINice/Centre Biologique Médical Nice,2011-07 Bilan Sanguin.pdf,1,False,texte:Antécédents,1500.0,7000.0
+2011-07-15,eosinophiles,Éosinophiles,259.0,/mm3,,Laboratoires associés :BARLANice/LAMSINice/ BERLUGANBeaulieu / RAIMBALDINice/Centre Biologique Médical Nice,2011-07 Bilan Sanguin.pdf,1,False,texte:Antécédents,50.0,400.0
+2011-07-15,basophiles,Basophiles,50.0,/mm3,,Laboratoires associés :BARLANice/LAMSINice/ BERLUGANBeaulieu / RAIMBALDINice/Centre Biologique Médical Nice,2011-07 Bilan Sanguin.pdf,1,False,texte:Antécédents,0.0,100.0
+2011-07-15,lymphocytes,Lymphocytes,2275.0,/mm3,,Laboratoires associés :BARLANice/LAMSINice/ BERLUGANBeaulieu / RAIMBALDINice/Centre Biologique Médical Nice,2011-07 Bilan Sanguin.pdf,1,False,texte:Antécédents,1500.0,4000.0
+2011-07-15,monocytes,Monocytes,482.0,/mm3,,Laboratoires associés :BARLANice/LAMSINice/ BERLUGANBeaulieu / RAIMBALDINice/Centre Biologique Médical Nice,2011-07 Bilan Sanguin.pdf,1,False,texte:Antécédents,200.0,800.0
+2011-07-15,luc,LUC,151.0,/mm3,,Laboratoires associés :BARLANice/LAMSINice/ BERLUGANBeaulieu / RAIMBALDINice/Centre Biologique Médical Nice,2011-07 Bilan Sanguin.pdf,1,False,texte:Antécédents,,
+2011-07-15,plaquettes,Plaquettes,222000.0,/mm3,,Laboratoires associés :BARLANice/LAMSINice/ BERLUGANBeaulieu / RAIMBALDINice/Centre Biologique Médical Nice,2011-07 Bilan Sanguin.pdf,1,False,texte:Antécédents,150000.0,400000.0
+2011-07-15,vitesse_sedimentation_1h,Vitesse de sédimentation 1ère heure,9.0,mm,,Laboratoires associés :BARLANice/LAMSINice/ BERLUGANBeaulieu / RAIMBALDINice/Centre Biologique Médical Nice,2011-07 Bilan Sanguin.pdf,1,False,texte:Antécédents,,18.0
+2011-07-15,glycemie,Glycémie à jeun,0.88,g/l,g/L,Laboratoires associés :BARLANice/LAMSINice/ BERLUGANBeaulieu / RAIMBALDINice/Centre Biologique Médical Nice,2011-07 Bilan Sanguin.pdf,1,False,texte:Antécédents,0.7,1.1
+2011-07-15,crp,CRP Ultra Sensible,3.61,mg/l,mg/L,Laboratoire Centre Biologique Médical,2011-07 Bilan Sanguin.pdf,2,False,texte:Antécédents,,5.0
+2011-07-15,acide_urique,Acide Urique,58.7,mg/l,,Laboratoire Centre Biologique Médical,2011-07 Bilan Sanguin.pdf,2,False,texte:Antécédents,28.0,70.0
+2008-08-29,acide_urique,Acide Urique,58.5,mg/l,,Laboratoire Centre Biologique Médical,2011-07 Bilan Sanguin.pdf,2,True,texte:Antécédents,28.0,70.0
+2011-07-15,creatinine,Créatinine,9.9,mg/1,mg/1,Laboratoire Centre Biologique Médical,2011-07 Bilan Sanguin.pdf,2,False,texte:Antécédents,79.0,1375.0
+2008-08-29,creatinine,Créatinine,12.1,mg/1,mg/1,Laboratoire Centre Biologique Médical,2011-07 Bilan Sanguin.pdf,2,True,texte:Antécédents,79.0,1375.0
+2008-08-29,chol_total,Cholestérol Total,2.6,g/l,g/l,Laboratoire Centre Biologique Médical,2011-07 Bilan Sanguin.pdf,2,False,texte:Antécédents,,
+2011-07-15,chol_total,Cholestérol Total,6.73,mmol/1,mmol/1,Laboratoire Centre Biologique Médical,2011-07 Bilan Sanguin.pdf,2,False,texte:Antécédents,4.14,5.7
+2011-07-15,hdl,HDL Cholestérol,0.43,g/l,g/l,Laboratoire Centre Biologique Médical,2011-07 Bilan Sanguin.pdf,2,False,texte:Antécédents,0.45,
+2008-08-29,hdl,HDL Cholestérol,0.54,g/l,g/l,Laboratoire Centre Biologique Médical,2011-07 Bilan Sanguin.pdf,2,True,texte:Antécédents,,
+2011-07-15,ldl,LDL Cholestérol,2.04,g/l,g/l,Laboratoire Centre Biologique Médical,2011-07 Bilan Sanguin.pdf,2,False,texte:Antécédents,,1.3
+2008-08-29,ldl,LDL Cholestérol,1.6,g/l,g/l,Laboratoire Centre Biologique Médical,2011-07 Bilan Sanguin.pdf,2,True,texte:Antécédents,,
+2011-07-15,tg,Triglycérides,0.63,g/1,g/1,Laboratoire Centre Biologique Médical,2011-07 Bilan Sanguin.pdf,2,False,texte:Antécédents,0.5,1.5
+2008-08-29,tg,Triglycérides,1.21,g/1,g/1,Laboratoire Centre Biologique Médical,2011-07 Bilan Sanguin.pdf,2,True,texte:Antécédents,0.5,1.5
+2011-07-15,sodium,Sodium,140.0,mmol/1,,Laboratoire Centre Biologique Médical,2011-07 Bilan Sanguin.pdf,2,False,texte:Antécédents,135.0,145.0
+2008-08-29,sodium,Sodium,141.0,mmol/1,,Laboratoire Centre Biologique Médical,2011-07 Bilan Sanguin.pdf,2,True,texte:Antécédents,135.0,145.0
+2011-07-15,potassium,Potassium,4.5,mmol/1,,Laboratoire Centre Biologique Médical,2011-07 Bilan Sanguin.pdf,2,False,texte:Antécédents,3.8,4.8
+2008-08-29,potassium,Potassium,4.0,mmol/1,,Laboratoire Centre Biologique Médical,2011-07 Bilan Sanguin.pdf,2,True,texte:Antécédents,3.8,4.8
+2011-07-15,chlore,Chlore,106.0,mmol/1,,Laboratoire Centre Biologique Médical,2011-07 Bilan Sanguin.pdf,2,False,texte:Antécédents,98.0,106.0
+2008-08-29,chlore,Chlore,105.0,mmol/1,,Laboratoire Centre Biologique Médical,2011-07 Bilan Sanguin.pdf,2,True,texte:Antécédents,98.0,106.0
+2011-07-15,bilirubine_totale,Bilirubine Totale,4.2,mg/l,,Laboratoires associés : BARLA Nice /LANSINice/ BERLUGAN Beaulieu / RAIMBALDINice/Centre BiologiqueMédical Nice,2011-07 Bilan Sanguin.pdf,3,False,texte:Antécédents,,10.0
+2011-07-15,bilirubine_directe,Bilirubine Directe (conjuguée),0.8,mg/l,,Laboratoires associés : BARLA Nice /LANSINice/ BERLUGAN Beaulieu / RAIMBALDINice/Centre BiologiqueMédical Nice,2011-07 Bilan Sanguin.pdf,3,False,texte:Antécédents,,2.4
+2011-07-15,bilirubine_indirecte,Bilirubine Indirecte (libre),3.4,mg/l,,Laboratoires associés : BARLA Nice /LANSINice/ BERLUGAN Beaulieu / RAIMBALDINice/Centre BiologiqueMédical Nice,2011-07 Bilan Sanguin.pdf,3,False,texte:Antécédents,,10.0
+2008-08-29,fer_serique,Fer Sérique,115.6,ug/100ml,,Laboratoires associés : BARLA Nice /LANSINice/ BERLUGAN Beaulieu / RAIMBALDINice/Centre BiologiqueMédical Nice,2011-07 Bilan Sanguin.pdf,3,True,texte:Antécédents,66.0,166.0
+2011-07-15,asat,ASAT (SGOT),26.0,UI/l,,Laboratoires associés : BARLA Nice /LANSINice/ BERLUGAN Beaulieu / RAIMBALDINice/Centre BiologiqueMédical Nice,2011-07 Bilan Sanguin.pdf,3,False,texte:Antécédents,,40.0
+2008-08-29,asat,ASAT (SGOT),22.0,UI/l,,Laboratoires associés : BARLA Nice /LANSINice/ BERLUGAN Beaulieu / RAIMBALDINice/Centre BiologiqueMédical Nice,2011-07 Bilan Sanguin.pdf,3,True,texte:Antécédents,,40.0
+2011-07-15,alat,ALAT (SGPT),27.0,UI/l,,Laboratoires associés : BARLA Nice /LANSINice/ BERLUGAN Beaulieu / RAIMBALDINice/Centre BiologiqueMédical Nice,2011-07 Bilan Sanguin.pdf,3,False,texte:Antécédents,,40.0
+2008-08-29,alat,ALAT (SGPT),30.0,UI/l,,Laboratoires associés : BARLA Nice /LANSINice/ BERLUGAN Beaulieu / RAIMBALDINice/Centre BiologiqueMédical Nice,2011-07 Bilan Sanguin.pdf,3,True,texte:Antécédents,,40.0
+2011-07-15,ggt,Gamma GT,37.0,UE/T,,Laboratoires associés : BARLA Nice /LANSINice/ BERLUGAN Beaulieu / RAIMBALDINice/Centre BiologiqueMédical Nice,2011-07 Bilan Sanguin.pdf,3,False,texte:Antécédents,2.0,30.0
+2008-08-29,ggt,Gamma GT,32.0,UE/T,,Laboratoires associés : BARLA Nice /LANSINice/ BERLUGAN Beaulieu / RAIMBALDINice/Centre BiologiqueMédical Nice,2011-07 Bilan Sanguin.pdf,3,True,texte:Antécédents,2.0,30.0
+2011-07-15,amylase,Amylase,75.0,UI/L,,Laboratoires associés : BARLA Nice /LANSINice/ BERLUGAN Beaulieu / RAIMBALDINice/Centre BiologiqueMédical Nice,2011-07 Bilan Sanguin.pdf,3,False,texte:Antécédents,,104.0
+2011-07-13,ph,pH Urinaire,6.0,,,Laboratoire Centre Biologique Médical,2011-07 Bilan Sanguin.pdf,5,False,texte:Antécédents,,
+2011-07-13,leucocytes,Leucocytes / mm3,absence,mm3,,Laboratoire Centre Biologique Médical,2011-07 Bilan Sanguin.pdf,5,False,texte:Antécédents,,10.0
+2011-07-13,hematies,Hématies / mm3,int à 5,mm3,,Laboratoire Centre Biologique Médical,2011-07 Bilan Sanguin.pdf,5,False,texte:Antécédents,,10.0
+2011-07-13,cellules_epitheliales,Cellules épithéliales,absence,,,Laboratoire Centre Biologique Médical,2011-07 Bilan Sanguin.pdf,5,False,texte:Antécédents,,
+2011-07-13,cylindres,Cylindres,absence de cylindres,,,Laboratoire Centre Biologique Médical,2011-07 Bilan Sanguin.pdf,5,False,texte:Antécédents,,
+2011-07-13,cristaux,Cristaux,absence de cristaux,,,Laboratoire Centre Biologique Médical,2011-07 Bilan Sanguin.pdf,5,False,texte:Antécédents,,
+2011-07-13,examen_direct_myco,Examen direct mycologique,absence de spores et filaments myceliens,,,Laboratoire Centre Biologique Médical,2011-07 Bilan Sanguin.pdf,5,False,texte:Antécédents,,
+2011-07-13,culture_sabouraud,Culture sur milieu Sabouraud,absence de développement mycélien,,,Laboratoire Centre Biologique Médical,2011-07 Bilan Sanguin.pdf,5,False,texte:Antécédents,,
+2011-07-13,examen_direct_bacterio,Examen direct bactériologique,absence de germes,,,Laboratoire Centre Biologique Médical,2011-07 Bilan Sanguin.pdf,5,False,texte:Antécédents,,
+2011-07-13,compte_kass,Compte de KASS,inf à 100 germes par ml,germes/ml,,Laboratoire Centre Biologique Médical,2011-07 Bilan Sanguin.pdf,5,False,texte:Antécédents,,100.0
+2011-08-24,hematies,Hématies,5030000.0,/mm3,,Laboratoires Beyrac,2011-08 Bilan Sanguin 08-2011.pdf,1,False,texte:Antécédents,4000000.0,5500000.0
+2011-08-24,hemoglobine,Hémoglobine,15.0,g/l00ml,,Laboratoires Beyrac,2011-08 Bilan Sanguin 08-2011.pdf,1,False,texte:Antécédents,14.0,18.0
+2011-08-24,hematocrite,Hématocrite,43.1,%,,Laboratoires Beyrac,2011-08 Bilan Sanguin 08-2011.pdf,1,False,texte:Antécédents,38.0,52.0
+2011-08-24,vgm,Volume globulaire moyen (VGM),85.7,microns3,,Laboratoires Beyrac,2011-08 Bilan Sanguin 08-2011.pdf,1,False,texte:Antécédents,83.0,95.0
+2011-08-24,tgmh,Charge globulaire (TGMH),29.8,pcg,,Laboratoires Beyrac,2011-08 Bilan Sanguin 08-2011.pdf,1,False,texte:Antécédents,28.0,34.0
+2011-08-24,cgmh,Concentration globulaire (CGMH),34.8,%,,Laboratoires Beyrac,2011-08 Bilan Sanguin 08-2011.pdf,1,False,texte:Antécédents,32.0,35.0
+2011-08-24,leucocytes,Leucocytes,5670.0,/mm3,,Laboratoires Beyrac,2011-08 Bilan Sanguin 08-2011.pdf,1,False,texte:Antécédents,4000.0,8000.0
+2011-08-24,polynucléaires_neutrophiles,Polynucléaires neutrophiles,49.0,%,,Laboratoires Beyrac,2011-08 Bilan Sanguin 08-2011.pdf,1,False,texte:Antécédents,1700.0,7000.0
+2011-08-24,eosinophiles,Éosinophiles,4.0,%,,Laboratoires Beyrac,2011-08 Bilan Sanguin 08-2011.pdf,1,False,texte:Antécédents,0.0,500.0
+2011-08-24,basophiles,Basophiles,1.0,"10,57 /mm3",,Laboratoires Beyrac,2011-08 Bilan Sanguin 08-2011.pdf,1,False,texte:Antécédents,0.0,250.0
+2011-08-24,lymphocytes,Lymphocytes,36.0,%,,Laboratoires Beyrac,2011-08 Bilan Sanguin 08-2011.pdf,1,False,texte:Antécédents,1200.0,4000.0
+2011-08-24,monocytes,Monocytes,10.0,%,,Laboratoires Beyrac,2011-08 Bilan Sanguin 08-2011.pdf,1,False,texte:Antécédents,50.0,1000.0
+2011-08-24,plaquettes,Plaquettes,225000.0,/mm3,,Laboratoires Beyrac,2011-08 Bilan Sanguin 08-2011.pdf,1,False,texte:Antécédents,150000.0,400000.0
+2011-08-24,vitesse_sedimentation_1h,Vitesse de sédimentation 1ère heure,6.0,mm,,Laboratoires Beyrac,2011-08 Bilan Sanguin 08-2011.pdf,1,False,texte:Antécédents,1.0,18.0
+2011-08-24,vitesse_sedimentation_2h,Vitesse de sédimentation 2ème heure,15.0,mm,,Laboratoires Beyrac,2011-08 Bilan Sanguin 08-2011.pdf,1,False,texte:Antécédents,6.0,36.0
+2011-08-24,creatinine,Créatinine,10.0,mg/L,mg/L,Laboratoires Beyrac,2011-08 Bilan Sanguin 08-2011.pdf,2,True,texte:Antécédents,7.0,13.0
+2011-08-24,acide_urique,Acide urique,53.4,mg/L,,Laboratoires Beyrac,2011-08 Bilan Sanguin 08-2011.pdf,2,True,texte:Antécédents,35.0,72.0
+2011-08-24,glycemie,Glycémie à jeun,0.94,g/L,g/L,Laboratoires Beyrac,2011-08 Bilan Sanguin 08-2011.pdf,2,True,texte:Antécédents,0.8,1.05
+2011-08-24,chol_total,Cholestérol total,6.21,mmol/L,mmol/L,Laboratoires Beyrac,2011-08 Bilan Sanguin 08-2011.pdf,3,False,texte:Antécédents,4.9,6.2
+2011-08-24,tg,Triglycérides,1.03,mmol/L,mmol/L,Laboratoires Beyrac,2011-08 Bilan Sanguin 08-2011.pdf,3,False,texte:Antécédents,0.4,1.7
+2011-08-24,hdl,HDL Cholestérol,1.22,g/L,mmol/L,Laboratoires Beyrac,2011-08 Bilan Sanguin 08-2011.pdf,3,False,texte:Antécédents,0.4,2.0
+2011-08-24,ldl,LDL Cholestérol,4.5,g/L,mmol/L,Laboratoires Beyrac,2011-08 Bilan Sanguin 08-2011.pdf,3,False,texte:Antécédents,0.2,1.6
+2011-08-24,bilirubine_totale,Bilirubine totale,9.4,mg/L,,Laboratoires Beyrac,2011-08 Bilan Sanguin 08-2011.pdf,3,False,texte:Antécédents,2.0,12.0
+2011-08-24,bilirubine_directe,Bilirubine directe (conjuguée),3.1,mg/L,,Laboratoires Beyrac,2011-08 Bilan Sanguin 08-2011.pdf,3,False,texte:Antécédents,,5.0
+2011-08-24,bilirubine_indirecte,Bilirubine indirecte (libre),6.3,mg/L,,Laboratoires Beyrac,2011-08 Bilan Sanguin 08-2011.pdf,3,False,texte:Antécédents,,10.0
+2011-08-24,ggt,Gamma GT,27.0,UI/L,,Laboratoires Beyrac,2011-08 Bilan Sanguin 08-2011.pdf,4,False,texte:Antécédents,12.0,64.0
+2011-08-24,asat,Transaminase TGO (ASAT),20.0,UI/L,,Laboratoires Beyrac,2011-08 Bilan Sanguin 08-2011.pdf,4,False,texte:Antécédents,5.0,34.0
+2011-08-24,alat,Transaminase TGP (ALAT),25.0,UI/L,,Laboratoires Beyrac,2011-08 Bilan Sanguin 08-2011.pdf,4,False,texte:Antécédents,,55.0
+2011-08-24,fort,Fer sérique,136.0,µg/dL,,Laboratoires Beyrac,2011-08 Bilan Sanguin 08-2011.pdf,4,False,texte:Antécédents,60.0,160.0
+2011-08-24,sodium,Sodium,139.0,mmol/L,,Laboratoires Beyrac,2011-08 Bilan Sanguin 08-2011.pdf,4,False,texte:Antécédents,136.0,145.0
+2011-08-24,potassium,Potassium,4.2,mmol/L,,Laboratoires Beyrac,2011-08 Bilan Sanguin 08-2011.pdf,4,False,texte:Antécédents,3.5,5.1
+2011-08-24,chlore,Chlore,106.0,mmol/L,,Laboratoires Beyrac,2011-08 Bilan Sanguin 08-2011.pdf,4,False,texte:Antécédents,96.0,107.0
+2011-08-24,ford,Réserve alcaline (CO2 total),24.0,mmol/L,,Laboratoires Beyrac,2011-08 Bilan Sanguin 08-2011.pdf,4,False,texte:Antécédents,22.0,29.0
+2011-08-24,proteines_totales,Protéines totales,71.0,g/L,,Laboratoires Beyrac,2011-08 Bilan Sanguin 08-2011.pdf,4,False,texte:Antécédents,60.0,80.0

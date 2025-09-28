@@ -1,0 +1,23 @@
+# Extraction PDF
+pdfplumber==0.11.0
+pytesseract==0.3.10
+Pillow==10.4.0
+
+# Données & validation
+# pandas: autoriser une version qui a un wheel pour ta version de Python
+pandas>=2.2,<2.3
+pydantic==2.9.2
+jsonschema==4.22.0
+
+# Génération Excel
+XlsxWriter==3.2.0
+
+# CLI
+typer==0.12.3
+
+# YAML
+PyYAML==6.0.2
+
+# LLM
+anthropic==0.40.0
+openai==1.50.2
