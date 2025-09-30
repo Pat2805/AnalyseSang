@@ -21,7 +21,6 @@ si une valeur existe déjà et qu'on trouve un antécédant, il n'est pas ajout�
 - Gestion des unités avec les antécédants : vérifier que l'unification des unités est bien appliquée lorsque les valeurs viennent des antécédants.
 - Gestion des valeurs multiples (celles avec % d'abord puis valeurs elles même notamment) : de base, si on a déjà des valeurs de ce marqueur, utiliser les mêmes unités. Sinon regarder s'il y a des références min max sur le doc, si oui, utiliser les valeurs/unités correspondantes. Sinon, utiliser les valeurs/unités les plus répandues.
 - Afficher les rejets dans les logs pour comprendre les problemes.
-- Bug pour la provenance qui dit tj antécédants : faire une analyse plus fine. 
 
   
 Creation d'un agent correcteur  : corrections sur les données obtenues.
